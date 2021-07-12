@@ -16,7 +16,7 @@ const Question = ({ title, info }) => {
         </button>
       </header>
       //{showInfo ? <p>{info}</p> : null}
-      // shorthand version for the line above
+      //shorthand version for the line above
       {showinfo && <p>{info}</p>}
   </article>
   );
