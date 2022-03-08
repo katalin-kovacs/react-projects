@@ -15,7 +15,6 @@ function App() {
     const parsedTours = await fetchedTours.json();
     setLoading(false);
     setTours(parsedTours);
-    //console.log(parsedTours);
   };
 
   useEffect(() => {
